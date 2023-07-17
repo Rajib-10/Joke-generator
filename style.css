@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fab22e;
+}
+.wrapper{
+    background-color: #080808;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+span{
+    font-size: 30px;
+    position: absolute;
+    top: 17%;
+    left: 44%;
+    display: block;
+}
+p{color: white;
+position: absolute;
+top: 35%;
+}
+button{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    font-size: 20px;
+    background-color: #080808;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: pink;
+}
